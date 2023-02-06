@@ -6,9 +6,11 @@
 
 * Fator de replicação nada mais é que a quantidade de brokers reserva irao existir para cada broker em produção.
 
-* Em produção o fator de replicação de um broker sempre deve ser maio que 1.
+* Em produção o fator de replicação de um broker sempre deve ser maior que 1.
 
   **Deste maneira caso um broker caia ou seja derrubado, haverá outro com uma exata copia dos dados, pronto para servir os clients em seu lugar**.
+
+* Um fator de replicação N para determinado topico, significa que cada partição existira em N brokers.  
 
 ![topic_replication](images/kafka_topic_replication.png)  
 ========================================================================

@@ -21,4 +21,6 @@
  **Integração com stack de bigData**
  **Comunicação assincrona entre microsservicos**
 
+ ![theory_roundup](images/kafka_theory_roundup.png)
+
 --------------------------------------------------------------------------------------//
