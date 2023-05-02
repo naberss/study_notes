@@ -1,44 +1,35 @@
-Metas -> 
+Metas ->
 
-(0) ingles fluente
+R$ 35k
 
-(1) two jobs (R$ 25.000)
+- Matematica para machine learning (0)
+
+- faculdade estatistica (0)
 
 certificações AWS:
- - (FOUNDATIONAL) cloud practitioner (5) 
- - (ASSOCIATE) developer
+ - (FOUNDATIONAL) cloud practitioner (4) 
+ - (ASSOCIATE) developer (5)
 
 Certificação Terraform (7)
  - HashiCorp Certified: Terraform Associate
-
-Certificação java: (8)
- - Java SE 17 Developer (1Z0-829)
-
-Certificação kafka
- - Confluent Certified Developer for Apache Kafka (CCDAK) 
- ![kafka_developer_path](images/kakfa_developer_Certified_path.png)
  
-Certificação Docker (9)
+Certificação Docker (3)
  - Docker Certified Associate (DCA)
 
-Certificação Kubernetes
+Certificação Kubernetes (10)
  - Certified Kubernetes Application Developer (CKAD)
 
-Java/Cloud Ecossystem:
+Java/Cloud Ecossystem study:
  - threads/concurrency
  - java reativ
  - java funcional
- - microsservices implementations (4)
- - mqs (kafka (2), rabbit, sqs)
- - docker (3)
- - kubernetes
+ - microsservices implementations (6)
+ - mqs (kafka (1), rabbit, sqs)
+ - docker (2)
+ - kubernetes (9)
  - terraform (6)
  - java security
- - graphql
- - Grpc
-
- - clean code & solid
+ - graphql (8)
+ - Grpc (7)
 
 - System Design
-- Algorithms (hackersRank)
-
