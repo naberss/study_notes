@@ -30,6 +30,7 @@ Java/Cloud Ecossystem study:
  - microsservices implementations
  - java security
  - java reativo
+ - sockets communication
  - Grpc
  - graphql
  - JVM tunning
