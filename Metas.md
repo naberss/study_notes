@@ -32,3 +32,4 @@ Java/Cloud Ecossystem study:
  - java reativo
  - Grpc
  - graphql
+ - JVM tunning
