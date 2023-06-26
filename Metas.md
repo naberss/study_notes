@@ -8,24 +8,28 @@ R$ 40k
 - Ingles a nivel de entrevista
 - System Design (bom o suficiente para entrevistas internacionais)
 
-certificações AWS:
+Certificações AWS:
  - (FOUNDATIONAL) cloud practitioner 
  - (ASSOCIATE) developer
 
-certificações java:
+Certificações Java:
 - Java SE 17 Developer
 
 Certificação Docker
  - Docker Certified Associate (DCA)
 
-Certificação Kubernetes
- - Certified Kubernetes Application Developer (CKAD)
-
-certificações kafka:
-- Confluent Certified Developer for Apache Kafka (CCDAK)
-
 Certificação Terraform
  - HashiCorp Certified: Terraform Associate
+
+Certificações Python:
+ - PCEP (Entry) 
+ - PCAP (Associate) 
+
+Certificações Kafka:
+- Confluent Certified Developer for Apache Kafka (CCDAK)
+
+Certificação Kubernetes
+ - Certified Kubernetes Application Developer (CKAD)
 
 Java/Cloud Ecossystem study:
  - java funcional
