@@ -9,7 +9,7 @@ R$ 40k
 - System Design (bom o suficiente para entrevistas internacionais)
 
 Certificações AWS:
- - (FOUNDATIONAL) cloud practitioner 
+ - (FOUNDATIONAL) cloud practitioner  (ok)
  - (ASSOCIATE) developer
 
 Certificações Java:
