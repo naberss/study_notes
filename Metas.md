@@ -3,7 +3,7 @@ Metas ->
 ** get better at engineering and infra so you can choose best cenario
 for building an application and hosting it **
 
-R$ 40k
+R$ 25k
 
 - Ingles a nivel de entrevista
 - System Design (bom o suficiente para entrevistas internacionais)
