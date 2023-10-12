@@ -8,11 +8,11 @@
 
 * Cada consumer dentro de um consumer-group lee de uma partições diferentes do topico em questao, de forma que um consumer pode ler de N partições, mas dois consumers no mesmo contexto nao podem ler da mesma partição.
 
-![kafka_consumer_groups](../../images/kafka_consumer_groups.png)
+![kafka_consumer_groups](../images/kafka_consumer_groups.png)
 
 * Se houverem mais consumers em um consumer-group que a quantidade de partições distintas em um topico, entao alguns consumers permanecerão inativos.
 
-![inactive_consumer](../../images/kafka_consumer_groups_inactive.png)
+![inactive_consumer](../images/kafka_consumer_groups_inactive.png)
 
 * É normal ter multiplos consumer-groups apontando para o mesmo topico e processando as mensagens para destinos diferentes, de modo que cada group tem seu offset unico.
 
