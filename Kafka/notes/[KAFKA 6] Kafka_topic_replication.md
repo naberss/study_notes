@@ -12,7 +12,7 @@
 
 * Um fator de replicação N para determinado topico, significa que cada partição existira em N brokers.  
 
-![topic_replication](../images/kafka_topic_replication.png)  
+![topic_replication](../../images/kafka_topic_replication.png)  
 ========================================================================
 
 ## CONCEPT OF LEADER FOR PARTITION
@@ -28,7 +28,7 @@
 
   **CASO A REPLICAÇÃO DOS DADOS OCORRA NO TEMPO MEDIO IDEAL, AS REPLICAS PODEM SER CHAMADAS DE "ISR" (IN-SYNC REPLICA)**
 
-![partition_leader](../images/kafka_partition_leader.png)
+![partition_leader](../../images/kafka_partition_leader.png)
 
 * Os clients (producers e consumers) sabem qual é o broker lider de determinada partição, para que os mesmos possam sempre se comunicar diretamente com eles.
 --------------------------------------------------------------------------------------//

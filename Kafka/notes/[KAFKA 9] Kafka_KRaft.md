@@ -15,9 +15,9 @@
 
 * kafka 3.3.1 ja implementa o protocolo raft e é estavel o suficiente para ser aplicado em ambientes produtivos.  
 
-![kraft_Arch](../images/kafka_kraft_arch.png)
+![kraft_Arch](../../images/kafka_kraft_arch.png)
 
 * arquitetura simplificada sem o advento do zookeeper.
 
-![kraft_improvements](../images/kraft_performance_improv.png)
+![kraft_improvements](../../images/kraft_performance_improv.png)
 --------------------------------------------------------------------------------------//
