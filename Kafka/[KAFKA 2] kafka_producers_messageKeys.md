@@ -20,7 +20,7 @@
 
   este mecanismo é indispensavel para evitar gargalos no processamento .
 
-![kafka_producer](images/kafka_producer.png)
+![kafka_producer](../images/kafka_producer.png)
 
 
 ========================================================================
@@ -38,7 +38,7 @@
 
 * Neste caso quando especificamos uma chave, temos a intenção de ordenar as mensagens dada uma regra customizada. 
 
-![kafka_producer_hashing](images/kafka_producer_hashing.png)
+![kafka_producer_hashing](../images/kafka_producer_hashing.png)
 
 * Neste caso a regra customizada é: As chaves com sufixo "id_123" e "id_234" serao processadas na respectiva ordem e 
   seguindo o racioncinio, o mesmo se aplica para prefixos "id_345" e "id_456".
@@ -55,7 +55,7 @@
 
 * Por padrão o **kafka partitioner** aplica hashing nas chaves da mensagem usando o 
   algorítimo murmur2.
-![murmur2](images/murmur2.png) 
+![murmur2](../images/murmur2.png) 
 
 ========================================================================
 
@@ -80,7 +80,7 @@
 
 **TimeStamp**
 - default ou customizado. 
-![kafka_key_anatomy](images/kafka_key_anatomy.png)
+![kafka_key_anatomy](../images/kafka_key_anatomy.png)
 
 ========================================================================
 
@@ -95,4 +95,4 @@
     
   Logo, consumers devem deserealizar as mensagens recebidas da engine.  
 
-![kafka_serialization_stage](images/kafka_serialization.png)
+![kafka_serialization_stage](../images/kafka_serialization.png)

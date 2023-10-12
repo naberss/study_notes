@@ -14,7 +14,7 @@
 * Os dados (data-streams) contidos nas partições dos tópicos serão lidos em sua respectiva ordem (dentro do contexto da partĩção).
  - low to high **OFFSET** (0,1,2,3 ..)
  
-![consumer_reading](images/kafka_consumer.png)
+![consumer_reading](../images/kafka_consumer.png)
 
 
 ========================================================================
@@ -28,7 +28,7 @@
 * Os tipos de serialização (producers) && deserialização (consumers) nao devem ser alterados durante o ciclo de vida 
   do tópico.
 
-![kafka_deserializer](images/kafka_deserializer.png)
+![kafka_deserializer](../images/kafka_deserializer.png)
 
 - Obs: **Nao altere o tipo de dados que o producer envia para determinado topico, pois dessa forma voce tambem devera alterar todos os consumers que estao inscritos no topico em questao, caso contrario voce ira quebrar a logica de processamento dos consumers, pois eles vao estar esperando um tipo de dados e nao saberao tratar tipos nao mapeados**.
 

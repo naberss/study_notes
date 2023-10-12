@@ -6,7 +6,7 @@
 
 * "Kafka topic" consiste em um node de stream de dados especificos, que esta contido em um **kafka cluster**
 
-![kafka_topics](images/kafka_topics.png)
+![kafka_topics](../images/kafka_topics.png)
 
 * Um paralelo pode ser feito entre um topico kafka e uma tabela no db, mas de modo que os topicos nao possuem constraints, ou seja, não ha tratamento para os dados incluídos no mesmo dentro da engine do kafka.
 
@@ -38,7 +38,7 @@
  
  * Kafka Tópics sao **imutaveis**, uma vez que o dado é escrito em uma partição, os mesmos não podem ser deletados ou alterados. 
  
- ![kafka_partitions](images/kafka_partitions.png)
+ ![kafka_partitions](../images/kafka_partitions.png)
 
 
 **Dados em topicos kafka sao armazenados por um periodo limitado de tempo (default - 1 semana, porém essa validação é configurável)**

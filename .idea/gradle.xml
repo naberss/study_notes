@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/resources/kafka/kafka-beginners-course-main" />
+        <option name="gradleJvm" value="temurin-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/resources/kafka/kafka-beginners-course-main" />
+            <option value="$PROJECT_DIR$/resources/kafka/kafka-beginners-course-main/kafka-basics" />
+            <option value="$PROJECT_DIR$/resources/kafka/kafka-beginners-course-main/kafka-consumer-opensearch" />
+            <option value="$PROJECT_DIR$/resources/kafka/kafka-beginners-course-main/kafka-producer-wikimedia" />
+            <option value="$PROJECT_DIR$/resources/kafka/kafka-beginners-course-main/kafka-streams-wikimedia" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

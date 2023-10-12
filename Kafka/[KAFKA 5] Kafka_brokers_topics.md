@@ -11,7 +11,7 @@
 * dentro do kafka-cluster cada broker é responsavel por possuir partições distintas de tópicos, ou seja, até 
   no contexto de brokers e clusters existe a distribuição de armazenamento de partições, isso tudo para deixar mais viavel ainda a escalabilidade da aplicação (kafka).   
 
-![brokers_topics_relation](images/kafka_brokers_topics_relation.png)
+![brokers_topics_relation](../images/kafka_brokers_topics_relation.png)
 
 ========================================================================
 
@@ -21,7 +21,7 @@
 
 * Depois de ja estar conectado a qualquer broker, voce sendo consumer (client) ou producer (client), voce ja tera acesso ao cluster inteiro (os proprios clients do kafka sabem como se conectar desta maneira automaticamente).
 
-![broker_discovery](images/kafka_broker_discovery.png)
+![broker_discovery](../images/kafka_broker_discovery.png)
 
 * A principio uma vez que o client (consumer ou producer) estiver conectado ao broker (server) ele recebe uma lista de todos os brokers conectados ao kluster.
 --------------------------------------------------------------------------------------//
