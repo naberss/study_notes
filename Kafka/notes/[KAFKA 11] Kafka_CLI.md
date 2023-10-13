@@ -1,5 +1,7 @@
 **[KAFKA CLI]**
 
+![kraft_Topics_cli](../images/kafka_topics_cli_actions.png)
+
 --------------------------------------------------------------------------------------//
 
 # CREATE AN TOPIC
@@ -23,3 +25,28 @@
 
 * replication factor stands for a way to replicate a topic data across brokers in a kafka cluster for disaster recovery purposes.
 - Obs: you cannot have a replication factor higher than the number of brokers you have in your cluster, otherwise across wich brokers would you replicate the topic data?
+
+--------------------------------------------------------------------------------------//
+
+# LIST TOPICS
+## COMMAND
+kafka-topics.sh --command-config playground.config --bootstrap-server cluster.playground.cdkt.io:9092 --list
+
+(--list) -> command to list all topics in the cluster.
+
+--------------------------------------------------------------------------------------//
+
+# DESCRIBE TOPICS
+## COMMAND
+kafka-topics.sh --command-config playground.config --bootstrap-server cluster.playground.cdkt.io:9092 --topic first_topic --describe
+
+(--topic first_topic --describe) -> define the topic you want to describe first, then describe it.
+
+* Obs: 'Isr' stands for 'In Sync Replica'.
+--------------------------------------------------------------------------------------//
+
+# DELETE TOPICS
+## COMMAND
+kafka-topics.sh --command-config playground.config --bootstrap-server cluster.playground.cdkt.io:9092 --topic second_topic --delete
+
+(--topic second_topic --delete) -> define the topic you want to delete first, then delete it.
