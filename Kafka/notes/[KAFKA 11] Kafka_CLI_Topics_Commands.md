@@ -1,6 +1,6 @@
-**[KAFKA CLI]**
+**[KAFKA CLI TOPICS COMMANDS]**
 
-![kraft_Topics_cli](../images/kafka_topics_cli_actions.png)
+![Topics_CLI_Commands](../images/kafka_topics_cli_actions.png)
 
 --------------------------------------------------------------------------------------//
 
