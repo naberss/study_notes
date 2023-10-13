@@ -44,3 +44,13 @@
 (--property key.separator=:)-> each of the following messages has to be composed of key:value separated accordingly with the defined separator, in this case beign ':'.
 
 * Obs: By producing messages with the same key, you are enssuring that they are going to the same partition on the specified topic
+
+--------------------------------------------------------------------------------------//
+
+# PRODUCING MESSAGES ROUND-ROBIN WISE
+
+## COMMAND
+- kafka-console-producer.sh --producer.config playground.config --bootstrap-server cluster.playground.cdkt.io:9092 --producer-property partitioner.class=org.apache.kafka.clients.producer.RoundRobinPartitioner --topic second_topic
+
+## COMMAND BREAKDOWN
+(--producer-property partitioner.class=org.apache.kafka.clients.producer.RoundRobinPartitioner)-> This command is defining that subsequent messages are going to be sent round-robin wise across partitions of the specified topic
