@@ -5,34 +5,38 @@ for building an application and hosting it **
 
 R$ 25k
 
-- Ingles a nivel de entrevista
-- System Design / fundamentals (backend, network, database)(bom o suficiente para entrevistas internacionais)
+- Ingles a nivel de entrevista (ok)
+- System Design (bom o suficiente para entrevistas internacionais)
 
-AWS Certification:
+Certificações AWS:
  - (FOUNDATIONAL) cloud practitioner  (ok)
- - (ASSOCIATE) developer
- - (ASSOCIATE) solutions architect
 
-Terraform Certification
- - HashiCorp Certified: Terraform Associate
+Certificação Docker
+- Docker Certified Associate (DCA)
 
-Docker Certification
- - Docker Certified Associate (DCA)
+Certificação Kubernetes
+- Certified Kubernetes Application Developer (CKAD)
 
-Kubernetes Certification
- - Certified Kubernetes Application Developer (CKAD)
+Certificações AWS:
+- (ASSOCIATE) developer
 
-Jenkins Certification
- - Certified Jenkins Engineer (CJE)
+  Certificação Terraform
+- HashiCorp Certified: Terraform Associate
 
 Certificações Java:
 - Java SE 21 Developer
 
+Certificações Python:
+ - PCEP (Entry) 
+ - PCAP (Associate)
+
 Java/Cloud Ecossystem study:
- - functional java
+ - java funcional
  - threads/concurrency
  - microsservices implementations
  - java security
- - reactive java
+ - java reativo
  - sockets communication
  - Grpc
+ - graphql
+ - JVM tunning
